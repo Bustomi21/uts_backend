@@ -18,41 +18,33 @@ while(True):
         print("\n==== 5. ", ikan[4],"====") 
         break   
 
-
     beli = int(input("Silahkan Pilih ikan yang akan dibeli : "))
     ekor = int(input("Berapa Ekor : " ))
 
-
     if  beli == 1:
-        biaya1= ekor*10000
-        print("Harga Ikan Mas Rp : ",biaya1 )
+        harga= ekor*10000
+        print("Harga Ikan Mas Rp : ",harga )
 
     elif beli == 2:
-        biaya1 = ekor*15000
-        print("Harga Ikan Cupang Rp : ", biaya1)
+        harga = ekor*150000
+        print("Harga Ikan Cupang Rp : ", harga)
 
     elif beli == 3:
-        biaya1 = ekor*23000
-        print("Harga Ikan Lohan Rp : ", biaya1)
+        harga = ekor*2300000
+        print("Harga Ikan Lohan Rp : ", harga)
 
     elif beli == 4:
-        biaya1 = ekor*30000
-        print("Harga Ikan Red Devils Rp : ", biaya1)
-
+        harga = ekor*20000
+        print("Harga Ikan Red Devils Rp : ", harga)
 
     elif beli == 5:
-        biaya1 = ekor*35000
-        print("Harga Ikan Arwana Rp : ", biaya1)
+        harga = ekor*5000000
+        print("Harga Ikan Arwana Rp : ", harga)
 
-
-    print("Terima Kasih")
+    print("Terima Kasih ")
     print("\n==========================================")
     print (" Nama               :",Ih)
-    print (" Biaya              :",biaya1)
-    
-
-
-
+    print (" Biaya              :",harga)
 
     jawab= input("")
     if jawab == 't':
