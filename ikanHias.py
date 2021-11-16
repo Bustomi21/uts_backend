@@ -45,13 +45,11 @@ while(True):
         print("Harga Ikan Arwana Rp : ", biaya1)
 
 
-    print("\n==========================================")
-    print("========== S T R U K   P E M B E L I A N ===========")
+    print("Terima Kasih")
     print("\n==========================================")
     print (" Nama               :",Ih)
     print (" Biaya              :",biaya1)
-    print("\n======== T E R I M A   K A S I H =========")
-    print("==========================================")
+    
 
 
 
